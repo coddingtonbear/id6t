@@ -1,0 +1,27 @@
+body {
+    font-family: "Futura", "Trebuchet MS", "Helvetica", "Arial", snas-serif;
+    font-size: 24pt;
+    color: #FFFFFF;
+    padding: 0px;
+    margin: 0px;
+}
+
+body > table {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+th { 
+    text-align: left;
+}
+td {
+    text-align: left;
+}
+
+body > div#map {
+    width: 100vw;
+    height: 100vh;
+}

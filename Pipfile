@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+"flake8" = "*"
+
+[packages]
+django = "*"
+daphne = "==2.2.2"
+"flake8" = "*"
+channels = "*"
+aioredis = "*"
+redis = "*"
+
+[requires]
+python_version = "3.6"
